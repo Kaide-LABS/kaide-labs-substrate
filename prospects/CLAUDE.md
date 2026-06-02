@@ -16,15 +16,16 @@ Per-prospect engagement records. Each subdirectory is one prospect. Structure va
 - **Killed** — hard filter fired before any sprint commit. Only `CLAUDE.md` + `kill_log.md`.
 - **Archived** — didn't fit current motion but revisitable. Only `CLAUDE.md` + `archive_log.md`.
 
-## Current pipeline (as of 2026-05-19)
+## Current pipeline (as of 2026-06-02)
 
 | Prospect | Status | Sprint stage | Notes |
 |----------|--------|--------------|-------|
-| matta | Active | Sprint 1 — demo recording phase | Phase 1.5 integration debug closed; recording per `frameworks/demo_recording_playbook.md` |
+| matta | Active | Sprint 1 — Refinery demo built, not yet sent | The Refinery (stateful pre-deployment intelligence sidecar); cold email to Doug Brion pending. Two prior cycles killed at 1F-red (see kill_log.md). |
 | solvo | Active | Sprint 2 active | Step 1A complete in Gemini DR; Step 1B red-team queued in Claude Web |
 | juna | Active | Step 0 intel captured, fit assessment pending | Claude Code + Nia assessment queued |
 | artificial_societies | Lost | Closed (relationship win, deal loss) | Triggered post-AS pipeline re-engineering |
 | tracelight | Lost | Closed (no response) | Held no-follow-up discipline correctly |
+| ylookup | Lost | Closed (engagement-model mismatch) | UDINA ingestion sidecar; pre-filter riba-entangled, preserved for pattern not prospect. Same posture as tracelight. |
 | wexler | Archived | Architecture generated, not pursued | Pre-Submission Bundle Attestation Sidecar |
 | tortus | Archived | Did not pursue post-sourcing | Too deep in clinical vertical |
 | strangeworks_quantagonia | Archived | Architecture explored, not pursued | OpenClaw strategic hook |
